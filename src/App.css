@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.App {
+  width: 95%;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: poppins;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.slider {
+  width: 100%;
+}
+
+.lables {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tenureContainer {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.tenure {
+  width: 15%;
+  height: 50px;
+  border: none;
+  border-radius: 100px;
+  background-color: rgb(226, 226, 226);
+}
+
+.selected {
+  background-color: #009ad6;
+  color: white;
+}
+input[type="number"]{
+padding: 6px 12px;
+background: rgb(62, 63, 68);
+border: 1px solid rgb(45, 46, 48);
+border-radius: 4px;
+font-size: 13px;
+color: rgb(247, 248, 248);
+height: 30px;
+appearance: none;
+transition: border 0.15s ease 0s;
+}
+input[type="number"]:focus{
+  outline: 2px solid rgb(255, 0, 0);
+}
+
+.error{
+  color: red;
+  text-decoration: underline;
+}
